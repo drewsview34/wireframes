@@ -1,27 +1,129 @@
-#middleimg {
+header {
+  background-color: rgb(59, 59, 56);
+  height: 100px;
+}
+.one {
+  display: inline-block;
+  vertical-align: center;
+  margin-left: 20px;
+  margin-right: 100px;
+  color: grey
+}
+
+#logo {
+    float: left;
+    padding-left: 140;
+    margin: 12px;
+}
+#otto {
+  width: 960px;
+  height: 450px;
+  margin-top: 25px;
+  margin-left: 150px;
+}
+#pic1 {
+  margin-left: 145px;
+  width: 300px;
+  height: 375px;
+  margin-top: 30px;
+}
+#pic2 {
+  margin-left: 30px;
+  width: 300px;
+  height: 375px;
+  margin-top: 30px;
+}
+#pic3 {
+  margin-left: 30px;
+  width: 300px;
+  height: 375px;
+  margin-top: 30px;
+}
+#pic4 {
+  margin-left: 150px;
+  width: 480px;
+  height: 400px;
+  margin-top: 30px;
+}
+#text {
+  position: absolute;
+  left: 670px;
+  top: 1010px;
+  right: 150px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 30;
+}
+p {
+  font-size: 16;
+}
+footer {
+  height: 120px;
+  background-color: rgb(46, 44, 44);
+  margin-top: 25px;
+}
+#links {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 30px; 
+  left: 50px;
+}
+#donate {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  top: 1373px;
+  right: 290;
+  background-color: aquamarine;
+  text-align: center;
+}
+#pdon{
+font-size: 45;
+}
+#donate:hover{
+    background-color: yellow;
+}
+
+#callToAction {
+  float: right;
+  margin-right: 600px;
+  margin-top: 0px;
+
+}
+
+/* #middleimg {
+    color: black;
     position: static;
-    width:1200px;
+    width: 960px;
+    height: 450px;
+    padding-left: 20px;
+
   }
   
   header {
-    background-color: #DDD;
+    background-color: darkgrey;
+    padding: 10px;
+    width: 1055px;
+    height: 70px;
   }
   
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    display: inline-table;
+    position: absolute;
+    top: 0px;
+    right: 400px;
   }
   ul img {
-    height: 80px;
+    height: 20px;
     float: center;
   }
   li {
-    position: relative;
-    padding: 30px;
-    float: right;
+    position: absolute;
+    padding: 25px;
+    top: 10px;
+    bottom: 10px;
   }
   li a {
     display: block;
@@ -47,9 +149,10 @@
   
   }
   #logo {
-    padding: 5px;
-    float: left;
-    padding-left: 200px;
+    position: absolute
+    right 50px; 
+    width: 200px;
+    height: 70px
   }
   .makespace {
     padding: 30px;
@@ -73,4 +176,4 @@
     padding: 30px;
     margin: 20px;
     position: bottom;
-  }
+  } */
